@@ -3,10 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CompartidoComponent } from './compartido/compartido.component';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CompartidoComponent,
+    
   ],
   imports: [
     BrowserModule,
